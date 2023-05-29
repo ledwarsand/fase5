@@ -1,0 +1,63 @@
+
+/* estilos para celular */ 
+
+@media screen and (min-width: 768px){
+
+    .menu-principal {
+        flex-direction: row;
+        transform: translateY(0);
+        background-color: black;
+    } 
+
+    .toggle-menu {
+        display: none;
+    }
+
+    .menu-item {
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .col6 {
+        max-width: 100%;
+    }
+    
+    .contenido {
+        padding: 0 35px;
+    }
+
+    #seccion2 h3.titulo-descripcion {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #seccion2 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #seccion2 .video {
+        width: 100%;
+        text-align: center;
+    }
+
+    #seccion3 {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #seccion3 .left {
+        float: none;
+    }
+
+    #seccion3 .col6{
+        max-width: 100%;
+    }
+
+
+}
